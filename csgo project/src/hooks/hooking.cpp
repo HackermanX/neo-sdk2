@@ -45,7 +45,7 @@ void hooks::init() {
 
 	remove_entity.Install(memory::PatternScan(XorStr("client.dll"), XorStr("55 8B EC 51 8B 45 0C 53 8B D9 56 57 83 F8 FF 75 07")), &hkOnRemoveEntity);
 
-	get_hint.Install(memory::GetVFunc(i::Localize, 11), &find_w_hooked);
+	get_hint.Install(memory::GetVFunc(i::Localize, 11), &hkFindW);
 }
 
 void __stdcall CreateMove(int nSequenceNumber, float flInputSampleFrametime, bool bIsActive, bool& bSendPacket) {
@@ -278,7 +278,7 @@ char __fastcall hooks::sub_10797090(void* thiscall, void* edx, const char* modul
 	return 1;
 }
 
-wchar_t* __fastcall hooks::find_w_hooked(ILocalize* thisptr, void*, const char* token) {
+wchar_t* __fastcall hooks::hkFindW(ILocalize* thisptr, void*, const char* token) {
 	static auto original = get_hint.get_original<wchar_t* (__thiscall*)(ILocalize*, const char*)>();
 	// this func is called a lot and string::find isn't the best thing to call a shitload of times per frame so
 	if (!i::Engine->IsDrawingLoadingImage())

@@ -29,5 +29,5 @@ namespace hooks {
 	void __fastcall hkOnAddEntity(std::uintptr_t ecx, std::uintptr_t edx, IHandleEntity* entity, CBaseHandle handle);
 	void __fastcall hkOnRemoveEntity(std::uintptr_t ecx, std::uintptr_t edx, IHandleEntity* entity, CBaseHandle handle);
 	char __fastcall sub_10797090(void* thiscall, void* edx, const char* modulename);
-	wchar_t* __fastcall find_w_hooked(ILocalize* thisptr, void*, const char* token);
+	wchar_t* __fastcall hkFindW(ILocalize* thisptr, void*, const char* token);
 }
