@@ -1,0 +1,25 @@
+#include "csgo/interfaces.h"
+#include "csgo/netvars.h"
+#include "csgo/datatypes/color.h"
+#include "csgo/datatypes/datamap.h"
+#include "csgo/datatypes/keyvalues.h"
+#include "csgo/datatypes/matrix.h"
+#include "csgo/datatypes/qangle.h"
+#include "csgo/datatypes/usercmd.h"
+#include "csgo/datatypes/vector.h"
+#include "csgo/other/definitions.h"
+#include "csgo/other/xor.h"
+#include "csgo/other/memory.h"
+#include "csgo/hash/md5.h"
+#include <chrono>
+#include <ctime>
+#include <locale>
+#include <sstream>
+using namespace std::chrono_literals;
+#include <windows.h>
+#include <d3d9.h>
+#include "csgo/covars.h"
+#include "csgo/other/math.h"
+#include "options.h"
+#include "csgo/other/input.h"
+#include "renderer/render.h"

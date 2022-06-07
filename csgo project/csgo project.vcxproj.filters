@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="protobuf\csgo\base_gcmessages.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\cstrike15_gcmessages.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\cstrike15_usermessages.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\econ_gcmessages.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\engine_gcmessages.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\fatdemo.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\gcsdk_gcmessages.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\gcsystemmsgs.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\netmessages.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\network_connection.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\steamdatagram_messages.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\steamdatagram_messages_auth.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\steammessages.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\steamnetworkingsockets_messages_certs.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="protobuf\csgo\uifontfile_format.pb.cc">
+      <Filter>protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\csgo\datatypes\clzss.cpp" />
+    <ClCompile Include="src\csgo\hash\crc32.cpp" />
+    <ClCompile Include="src\csgo\hash\md5.cpp" />
+    <ClCompile Include="src\csgo\netvars\netvars.cpp" />
+    <ClCompile Include="src\csgo\other\bitbuf.cpp" />
+    <ClCompile Include="src\features\backtracking\backtrack.cpp" />
+    <ClCompile Include="src\features\prediction\prediction.cpp" />
+    <ClCompile Include="src\hooks\hooking.cpp" />
+    <ClCompile Include="src\features\misc\movement.cpp" />
+    <ClCompile Include="src\features\chams\chams.cpp" />
+    <ClCompile Include="src\renderer\imgui\impl\imgui_impl_dx9.cpp" />
+    <ClCompile Include="src\renderer\imgui\imgui.cpp" />
+    <ClCompile Include="src\renderer\imgui\imgui_draw.cpp" />
+    <ClCompile Include="src\renderer\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="src\renderer\menu.cpp" />
+    <ClCompile Include="src\renderer\render.cpp" />
+    <ClCompile Include="src\csgo\other\input.cpp" />
+    <ClCompile Include="src\features\esp\player.cpp" />
+    <ClCompile Include="src\features\esp\other.cpp" />
+    <ClCompile Include="src\features\misc\misc.cpp" />
+    <ClCompile Include="src\features\aimboting\legitbot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="protobuf">
+      <UniqueIdentifier>{d5f64c7a-ded5-49ac-81e4-5f1af57bfb61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="protobuf\csgo\base_gcmessages.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\cstrike15_gcmessages.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\cstrike15_usermessages.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\econ_gcmessages.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\engine_gcmessages.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\fatdemo.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\gcsdk_gcmessages.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\gcsystemmsgs.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\netmessages.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\network_connection.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\steamdatagram_messages.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\steamdatagram_messages_auth.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\steammessages.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\steamnetworkingsockets_messages_certs.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="protobuf\csgo\uifontfile_format.pb.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="src\csgo\datatypes\clzss.h" />
+    <ClInclude Include="src\csgo\datatypes\color.h" />
+    <ClInclude Include="src\csgo\datatypes\datamap.h" />
+    <ClInclude Include="src\csgo\datatypes\datatable.h" />
+    <ClInclude Include="src\csgo\datatypes\keyvalues.h" />
+    <ClInclude Include="src\csgo\datatypes\matrix.h" />
+    <ClInclude Include="src\csgo\datatypes\qangle.h" />
+    <ClInclude Include="src\csgo\datatypes\usercmd.h" />
+    <ClInclude Include="src\csgo\datatypes\utlmemory.h" />
+    <ClInclude Include="src\csgo\datatypes\utlstack.h" />
+    <ClInclude Include="src\csgo\datatypes\utlvector.h" />
+    <ClInclude Include="src\csgo\datatypes\vector.h" />
+    <ClInclude Include="src\csgo\hash\crc32.h" />
+    <ClInclude Include="src\csgo\hash\fnv1a.h" />
+    <ClInclude Include="src\csgo\hash\md5.h" />
+    <ClInclude Include="src\csgo\interfaces\ibaseclientdll.h" />
+    <ClInclude Include="src\csgo\interfaces\icliententitylist.h" />
+    <ClInclude Include="src\csgo\interfaces\iclientmodeshared.h" />
+    <ClInclude Include="src\csgo\interfaces\iconvar.h" />
+    <ClInclude Include="src\csgo\interfaces\ieffects.h" />
+    <ClInclude Include="src\csgo\interfaces\iengineclient.h" />
+    <ClInclude Include="src\csgo\interfaces\ienginesound.h" />
+    <ClInclude Include="src\csgo\interfaces\ienginetrace.h" />
+    <ClInclude Include="src\csgo\interfaces\ienginevgui.h" />
+    <ClInclude Include="src\csgo\interfaces\igameconsole.h" />
+    <ClInclude Include="src\csgo\interfaces\igameeventmanager.h" />
+    <ClInclude Include="src\csgo\interfaces\igametypes.h" />
+    <ClInclude Include="src\csgo\interfaces\igameui.h" />
+    <ClInclude Include="src\csgo\interfaces\iglobalvars.h" />
+    <ClInclude Include="src\csgo\interfaces\iglowmanager.h" />
+    <ClInclude Include="src\csgo\interfaces\ihudchat.h" />
+    <ClInclude Include="src\csgo\interfaces\iinput.h" />
+    <ClInclude Include="src\csgo\interfaces\iinputsystem.h" />
+    <ClInclude Include="src\csgo\interfaces\ilocalize.h" />
+    <ClInclude Include="src\csgo\interfaces\imatchframework.h" />
+    <ClInclude Include="src\csgo\interfaces\imaterial.h" />
+    <ClInclude Include="src\csgo\interfaces\imaterialsystem.h" />
+    <ClInclude Include="src\csgo\interfaces\imatrendercontext.h" />
+    <ClInclude Include="src\csgo\interfaces\imdlcache.h" />
+    <ClInclude Include="src\csgo\interfaces\imemalloc.h" />
+    <ClInclude Include="src\csgo\interfaces\inetchannel.h" />
+    <ClInclude Include="src\csgo\interfaces\inetworkstring.h" />
+    <ClInclude Include="src\csgo\interfaces\iphysicssurfaceprops.h" />
+    <ClInclude Include="src\csgo\interfaces\iprediction.h" />
+    <ClInclude Include="src\csgo\interfaces\irefcount.h" />
+    <ClInclude Include="src\csgo\interfaces\iservergamedll.h" />
+    <ClInclude Include="src\csgo\interfaces\isteamclient.h" />
+    <ClInclude Include="src\csgo\interfaces\isteamgamecoordinator.h" />
+    <ClInclude Include="src\csgo\interfaces\istudiorender.h" />
+    <ClInclude Include="src\csgo\interfaces\isurface.h" />
+    <ClInclude Include="src\csgo\interfaces\itexture.h" />
+    <ClInclude Include="src\csgo\interfaces\ivdebugoverlay.h" />
+    <ClInclude Include="src\csgo\interfaces\ivengineeffects.h" />
+    <ClInclude Include="src\csgo\interfaces\iviewrender.h" />
+    <ClInclude Include="src\csgo\interfaces\iviewrenderbeams.h" />
+    <ClInclude Include="src\csgo\interfaces\ivmodelinfo.h" />
+    <ClInclude Include="src\csgo\interfaces\ivmodelrender.h" />
+    <ClInclude Include="src\csgo\interfaces\ivpanel.h" />
+    <ClInclude Include="src\csgo\interfaces\ivrenderview.h" />
+    <ClInclude Include="src\csgo\interfaces\iweaponsystem.h" />
+    <ClInclude Include="src\csgo\netvars\netvars.h" />
+    <ClInclude Include="src\csgo\other\bitbuf.h" />
+    <ClInclude Include="src\csgo\other\bspflags.h" />
+    <ClInclude Include="src\csgo\other\convar.h" />
+    <ClInclude Include="src\csgo\other\definitions.h" />
+    <ClInclude Include="src\csgo\other\entity.h" />
+    <ClInclude Include="src\csgo\other\math.h" />
+    <ClInclude Include="src\csgo\other\memory.h" />
+    <ClInclude Include="src\csgo\other\studio.h" />
+    <ClInclude Include="src\csgo\other\xor.h" />
+    <ClInclude Include="src\csgo\covars.h" />
+    <ClInclude Include="src\csgo\interfaces.h" />
+    <ClInclude Include="src\csgo\netvars.h" />
+    <ClInclude Include="src\features\backtracking\backtrack.h" />
+    <ClInclude Include="src\features\prediction\prediction.h" />
+    <ClInclude Include="src\hooks\hooking.h" />
+    <ClInclude Include="src\commonIncludes.h" />
+    <ClInclude Include="src\options.h" />
+    <ClInclude Include="src\features\misc\misc.h" />
+    <ClInclude Include="src\features\chams\chams.h" />
+    <ClInclude Include="src\renderer\imgui\impl\imgui_impl_dx9.h" />
+    <ClInclude Include="src\renderer\imgui\imgui.h" />
+    <ClInclude Include="src\renderer\imgui\imgui_internal.h" />
+    <ClInclude Include="src\renderer\imgui\imstb_rectpack.h" />
+    <ClInclude Include="src\renderer\imgui\imstb_textedit.h" />
+    <ClInclude Include="src\renderer\imgui\imstb_truetype.h" />
+    <ClInclude Include="src\renderer\menu.h" />
+    <ClInclude Include="src\renderer\render.h" />
+    <ClInclude Include="src\csgo\other\input.h" />
+    <ClInclude Include="src\renderer\fonts\cousine.hpp" />
+    <ClInclude Include="src\renderer\fonts\droid.hpp" />
+    <ClInclude Include="src\renderer\fonts\fonts.hpp" />
+    <ClInclude Include="src\renderer\imgui\imconfig.h" />
+    <ClInclude Include="src\features\esp\esp.h" />
+    <ClInclude Include="src\hooks\steam_hook.h" />
+    <ClInclude Include="src\features\aimboting\legitbot.h" />
+  </ItemGroup>
+</Project>
